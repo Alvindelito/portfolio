@@ -11,9 +11,9 @@ export default function Nav() {
       <Link href="#about">
         <a className="m-3 text-xl font-medium hover:underline">About</a>
       </Link>
-      {/* TODO: Projects */}
+      {/* TODO: Applications */}
       <Link href="/">
-        <a className="m-3 text-xl font-medium hover:underline">Projects</a>
+        <a className="m-3 text-xl font-medium hover:underline">Applications</a>
       </Link>
       {/* TODO: Resume */}
       <Link href="/">

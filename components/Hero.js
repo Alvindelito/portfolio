@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <div className="bg-gray-50">
-      <div className="max-w-screen-lg flex h-80 my-16 mx-auto">
+      <div className="max-w-screen-lg flex h-80 my-8 mx-auto">
         {/* Description */}
         <div className="flex w-6/12 self-center flex-col">
           <h3 className=" mx-auto text-4xl w-5/12">it is me, Alvin</h3>
