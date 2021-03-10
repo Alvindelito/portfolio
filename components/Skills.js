@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="bg-gray-50 my-8">
+    <div className="bg-gray-50 py-8">
       <h3 id="skills" className="text-center font-light text-3xl tracking-wide">
         Skills
       </h3>

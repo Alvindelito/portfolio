@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div
-      className="my-8 mx-auto max-w-screen-lg text-justify tracking-wide"
+      className="py-8 mx-auto max-w-screen-lg text-justify tracking-wide"
       id="about"
     >
       <h3 className="text-center text-3xl font-light">About me</h3>
