@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/About';
+import Applications from '../components/Applications';
 import Hero from '../components/Hero';
 import Skills from '../components/Skills';
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <Applications />
     </div>
   );
 }
