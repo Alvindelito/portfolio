@@ -1,7 +1,10 @@
 export default function Skills() {
   return (
     <div className="bg-gray-50 py-8">
-      <h3 id="skills" className="text-center font-light text-3xl tracking-wide">
+      <h3
+        id="skills"
+        className="text-center font-extralight text-3xl tracking-wide"
+      >
         Skills
       </h3>
       <div className="max-w-screen-lg mx-auto justify-center flex">

@@ -6,8 +6,7 @@ import Nav from './Nav';
 
 export default function Header() {
   return (
-    <header className="max-w-screen-lg mx-auto flex flex-row flex-grow h-16 w-full">
-      <Logo />
+    <header className="max-w-screen-lg mx-auto h-16 w-full flex justify-end">
       <Nav />
     </header>
   );

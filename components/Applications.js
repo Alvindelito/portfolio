@@ -4,11 +4,11 @@ import Card from './Card';
 
 export default function Applications() {
   return (
-    <div className="container py-4">
+    <div className="container py-8">
       <div className="max-w-screen-lg mx-auto justify-center">
         <h3
           id="applications"
-          className="text-center font-light text-3xl tracking-wide"
+          className="text-center font-extralight text-3xl tracking-wide"
         >
           Applications
         </h3>
