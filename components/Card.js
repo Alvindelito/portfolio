@@ -6,7 +6,7 @@ export default function Card({
   repoLink,
 }) {
   return (
-    <div className="bg-gray-50 p-2 w-5/12 m-2 border border-solid border-gray-400 border-opacity-50 rounded-xl shadow-md">
+    <div className="bg-gray-50 p-2 lg:w-5/12 m-2 border border-solid border-gray-400 border-opacity-50 rounded-xl shadow-md">
       <h4 className="text-center text-2xl font-light pb-2 tracking-wide">
         {title}
       </h4>

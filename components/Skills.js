@@ -7,15 +7,14 @@ export default function Skills() {
       >
         Skills
       </h3>
-      <div className="max-w-screen-lg mx-auto justify-center flex">
-        <h4 className="h-full font-bold text-2xl tracking-wider self-center p-4 border-r border-black">
+      <div className="max-w-screen-lg lg:mx-auto justify-center flex flex-wrap">
+        <h4 className=" font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
           Frontend Development
         </h4>
         <img
           alt="html5 logo"
           className="m-4"
           width="100px"
-          className="m-4"
           height="100px"
           src="https://res.cloudinary.com/alvindelito/image/upload/v1615255847/portfolio/html5_q75vwf.svg"
         />
@@ -49,8 +48,8 @@ export default function Skills() {
         />
       </div>
 
-      <div className="max-w-screen-lg flex mx-auto justify-center">
-        <h4 className="h-full font-bold text-2xl tracking-wider self-center p-4 border-r border-black">
+      <div className="max-w-screen-lg lg:mx-auto justify-center flex flex-wrap">
+        <h4 className=" font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
           Backend Development
         </h4>
         <img

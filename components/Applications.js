@@ -4,7 +4,7 @@ import Card from './Card';
 
 export default function Applications() {
   return (
-    <div className="container py-8">
+    <div className="py-8">
       <div className="max-w-screen-lg mx-auto justify-center">
         <h3
           id="applications"

@@ -1,6 +1,10 @@
 export default function ContactForm() {
   return (
-    <form name="contact" method="/" className="flex flex-col w-6/12 mx-auto">
+    <form
+      name="contact"
+      method="/"
+      className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
+    >
       <label htmlFor="name" className="my-2">
         Name<span className="text-red-500">*</span>
         <input

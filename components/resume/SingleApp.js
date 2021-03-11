@@ -6,8 +6,10 @@ export default function SingleApp({ title, header, description, list }) {
       </h4>
       <p className="font-extralight text-md">{description}</p>
       <ul>
-        {list.map((section) => (
-          <li className="list-disc ml-5 text-justify font-light">{section}</li>
+        {list.map((section, idx) => (
+          <li className="list-disc ml-5 text-justify font-light" key={idx}>
+            {section}
+          </li>
         ))}
       </ul>
     </div>

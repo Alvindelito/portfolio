@@ -17,8 +17,10 @@ export default function WorkExperience() {
         <p>2019 - 2020</p>
       </div>
       <ul>
-        {ajWholesale.map((section) => (
-          <li className="list-disc ml-5 text-justify font-light">{section}</li>
+        {ajWholesale.map((section, idx) => (
+          <li className="list-disc ml-5 text-justify font-light" key={idx}>
+            {section}
+          </li>
         ))}
       </ul>
     </div>
