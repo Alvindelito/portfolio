@@ -9,13 +9,13 @@ export default function Hero() {
           <p className=" mx-auto text-md text-c-darkgray dark:text-c-gray">
             Hi, my name is
           </p>
-          <h2 className="mx-auto font-extrabold font-mono text-lg lg:text-4xl uppercase tracking-wide text-c-teal dark:text-c-electricblue">
+          <h2 className="mx-auto font-extrabold font-mono text-lg md:text-4xl uppercase tracking-wide text-c-teal dark:text-c-electricblue">
             Alvin Delito
           </h2>
-          <p className="mx-auto text-center text-c-darkgray dark:text-c-gray lg:text-left">
+          <p className="mx-auto text-center text-c-darkgray dark:text-c-gray md:text-left">
             I'm a
           </p>
-          <strong className="mx-auto text-c-teal dark:text-c-electricblue uppercase tracking-wider font-mono lg:text-2xl">
+          <strong className="mx-auto text-c-teal dark:text-c-electricblue uppercase tracking-wider font-mono md:text-2xl">
             Software Engineer
           </strong>
           <p className="mx-auto text-c-darkgray dark:text-c-gray">

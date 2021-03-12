@@ -8,7 +8,7 @@ import useWindowSize from '../lib/useWindowSize';
 function MyApp({ Component, pageProps }) {
   const size = useWindowSize();
 
-  if (size.width < 640) {
+  if (size.width < 768) {
     return (
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
