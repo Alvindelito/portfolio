@@ -4,7 +4,7 @@ export default function Hero() {
     <div className="bg-c-lightgray dark:bg-c-black">
       <div className="max-w-screen-lg flex justify-center lg:h-96 mx-auto">
         {/* Description */}
-        <div className="flex w-4/12 self-center flex-col">
+        <div className="flex w-6/12 mx-2 lg:w-4/12 self-center flex-col">
           <p className=" mx-auto text-md text-c-darkgray dark:text-c-gray">
             Hi, my name is
           </p>

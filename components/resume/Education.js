@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div className="text-c-gray">
+    <div className="m-2 text-c-darkgray dark:text-c-gray">
       <h3 className="text-c-teal uppercase text-center text-lg">Education</h3>
       <div>
         <div className="flex items-center place-content-between">

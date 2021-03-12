@@ -7,7 +7,7 @@ export default function Footer() {
           © All rights are reserved | 2021 | Made with
         </p>
         <Nextjs
-          className="bg-c-gray"
+          className="dark:bg-c-gray"
           viewBox="0 0 205 125"
           width="70"
           height="40"
