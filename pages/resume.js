@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Education from '../components/resume/Education';
 import ResumeApplications from '../components/resume/ResumeApplications';
 import TechnicalSkills from '../components/resume/TechnicalSkills';
@@ -6,6 +7,10 @@ import WorkExperience from '../components/resume/WorkExperience';
 export default function ResumePage() {
   return (
     <div>
+      <Head>
+        <title>Alvin Delito | Resume</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <h2 className="text-center text-4xl font-extralight py-4 bg-gray-100 text-c-darkgray dark:bg-c-darkgray dark:text-c-teal">
         Resume
       </h2>

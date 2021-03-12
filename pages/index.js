@@ -8,6 +8,10 @@ import Skills from '../components/Skills';
 export default function Home() {
   return (
     <div className="w-full">
+      <Head>
+        <title>Alvin Delito</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Hero />
       <About />
       <Skills />

@@ -15,14 +15,14 @@ export default function Applications() {
         <div className="flex flex-wrap justify-center">
           <Card
             title="Getsy"
-            imgLink="https://res.cloudinary.com/alvindelito/image/upload/v1615395747/portfolio/getsy-displayPicture_sceiu1.png"
+            imgLink="https://res.cloudinary.com/alvindelito/image/upload/c_scale,w_425/v1615395747/portfolio/getsy-displayPicture_sceiu1.jpg"
             description="Mock website of the popular e-commerce platform Etsy. Utilizes Software-oriented architecture of independent modules"
             technologies="MySQL | Express | React | Node | AWS EC2"
             repoLink="https://github.com/hrla39copypasta/Etsy-SellerDescription"
           />
           <Card
             title="TimCamp System Design Capstone"
-            imgLink="https://res.cloudinary.com/alvindelito/image/upload/v1615400896/portfolio/timcamp-demo_kgqndf.png"
+            imgLink="https://res.cloudinary.com/alvindelito/image/upload/c_scale,w_425/v1615400896/portfolio/timcamp-demo_kgqndf.jpg"
             description="Scalable RESTful API service built for an existing e-commerce platform and optimized to handle web-scale traffic. This is done by increasing the dataset from 100 unique records to 10 million unique records."
             technologies="Postgres | Express | Node | AWS EC2 | Nginx"
             repoLink="https://github.com/SDCCopyTim/SDC-Description"
