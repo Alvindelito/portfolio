@@ -1,4 +1,5 @@
-// <img src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_600/v1615176450/portfolio/hero-bg_gsh3to.jpg" />
+import SocialMedia from './SocialMedia';
+
 export default function Hero() {
   return (
     <div className="bg-c-lightgray dark:bg-c-black">
@@ -20,6 +21,7 @@ export default function Hero() {
           <p className="mx-auto text-c-darkgray dark:text-c-gray">
             I build things for the web
           </p>
+          <SocialMedia />
         </div>
         {/* image */}
         <div className="flex w-4/12">
