@@ -1,18 +1,25 @@
 // <img src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_600/v1615176450/portfolio/hero-bg_gsh3to.jpg" />
 export default function Hero() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-c-lightgray dark:bg-c-black">
       <div className="max-w-screen-lg flex lg:h-96 mx-auto">
         {/* Description */}
         <div className="flex w-6/12 self-center flex-col">
-          <p className=" mx-auto text-md">Hi, my name is</p>
-          <h2 className="mx-auto font-extrabold font-mono text-lg lg:text-3xl uppercase tracking-wide">
+          <p className=" mx-auto text-md text-c-darkgray dark:text-c-gray">
+            Hi, my name is
+          </p>
+          <h2 className="mx-auto font-extrabold font-mono text-lg lg:text-3xl uppercase tracking-wide text-c-teal dark:text-c-electricblue">
             Alvin Delito
           </h2>
-          <p className="mx-auto text-center lg:text-left">
-            I'm a <strong>Software Engineer</strong>
+          <p className="mx-auto text-center text-c-darkgray dark:text-c-gray lg:text-left">
+            I'm a
           </p>
-          <p className="mx-auto">I build things for the web</p>
+          <strong className="mx-auto text-c-teal dark:text-c-electricblue">
+            Software Engineer
+          </strong>
+          <p className="mx-auto text-c-darkgray dark:text-c-gray">
+            I build things for the web
+          </p>
         </div>
         {/* image */}
         <div className="flex w-4/12 mx-auto">

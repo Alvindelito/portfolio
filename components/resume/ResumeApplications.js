@@ -25,8 +25,10 @@ const roomease = [
 
 export default function ResumeApplications() {
   return (
-    <div>
-      <h3 className="uppercase text-center text-lg">Applications</h3>
+    <div className="text-c-gray">
+      <h3 className="text-c-teal uppercase text-center text-lg">
+        Applications
+      </h3>
       <SingleApp
         title="TimCamp"
         header="Software Engineer | Postgres, Nginx, New Relic, AWS/EC2, K6,

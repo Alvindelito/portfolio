@@ -1,3 +1,4 @@
+import { ThemeProvider } from 'next-themes';
 import Page from '../components/Page';
 import Header from '../components/Header';
 import '../styles/globals.css';
@@ -9,20 +10,20 @@ function MyApp({ Component, pageProps }) {
 
   if (size.width < 640) {
     return (
-      <Page>
+      <ThemeProvider attribute="class">
         <Component {...pageProps} />
         <Footer />
         <Header />
-      </Page>
+      </ThemeProvider>
     );
   }
 
   return (
-    <Page>
+    <ThemeProvider attribute="class">
       <Header />
       <Component {...pageProps} />
       <Footer />
-    </Page>
+    </ThemeProvider>
   );
 }
 

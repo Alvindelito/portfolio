@@ -8,11 +8,14 @@ const ajWholesale = [
 
 export default function WorkExperience() {
   return (
-    <div>
-      <h3 className="uppercase text-center text-lg">Work Experience</h3>
+    <div className="text-c-gray">
+      <h3 className="text-c-teal uppercase text-center text-lg">
+        Work Experience
+      </h3>
       <div className="flex items-center place-content-between">
         <h4 className="text-lg">
-          AJ Wholesale Distributors, Inc. | E-Commerce Clerk
+          <span className="text-c-teal">AJ Wholesale Distributors, Inc.</span> |
+          E-Commerce Clerk
         </h4>
         <p>2019 - 2020</p>
       </div>

@@ -1,10 +1,10 @@
 export default function Education() {
   return (
-    <div>
-      <h3 className="uppercase text-center text-lg">Education</h3>
+    <div className="text-c-gray">
+      <h3 className="text-c-teal uppercase text-center text-lg">Education</h3>
       <div>
         <div className="flex items-center place-content-between">
-          <h4 className="text-lg">Hack Reactor</h4>
+          <h4 className="text-lg text-c-teal">Hack Reactor</h4>
           <p>2020</p>
         </div>
         <p className="font-extralight text-md">
@@ -13,7 +13,9 @@ export default function Education() {
       </div>
       <div>
         <div className="flex items-center place-content-between">
-          <h4 className="text-lg">California State University Long Beach</h4>
+          <h4 className="text-lg text-c-teal">
+            California State University Long Beach
+          </h4>
           <p>2013-2018</p>
         </div>
         <p className="font-extralight text-md">
