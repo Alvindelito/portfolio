@@ -1,7 +1,5 @@
 import Card from './Card';
 
-// TODO: optimize images by resizing and converting png to jpg. set from width to max-width
-
 export default function Applications() {
   return (
     <div className="py-8 dark:bg-c-black">
