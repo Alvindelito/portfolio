@@ -2,7 +2,7 @@ import SocialMedia from './SocialMedia';
 
 export default function Hero() {
   return (
-    <div className="bg-gray-50 dark:bg-c-black">
+    <div className="bg-gray-50 dark:bg-c-black md:pt-8">
       <div className="max-w-screen-lg flex justify-center h-64 lg:h-96 mx-auto">
         {/* Description */}
         <div className="flex w-6/12 mx-2 lg:w-4/12 self-center flex-col">

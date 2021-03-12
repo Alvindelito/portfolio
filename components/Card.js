@@ -17,6 +17,7 @@ export default function Card({
       <a
         href={repoLink}
         className="flex justify-center underline items-end my-2"
+        target="_blank"
       >
         <GithubSvg
           className="mx-1"
