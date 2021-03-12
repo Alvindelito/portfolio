@@ -1,3 +1,5 @@
+import GithubSvg from '../public/github.svg';
+
 export default function Card({
   title,
   imgLink,
@@ -16,11 +18,11 @@ export default function Card({
         href={repoLink}
         className="flex justify-center underline items-end my-2"
       >
-        <img
+        <GithubSvg
           className="mx-1"
-          width="25px"
-          height="25px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_64/v1615397726/portfolio/github_kwizjd.svg"
+          viewBox="-50 0 1100 1100"
+          width="30"
+          height="30"
         />
         View Github Repo
       </a>

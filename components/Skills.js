@@ -1,3 +1,14 @@
+import Html5Svg from '../public/html5.svg';
+import Css3Svg from '../public/css3.svg';
+import JavascriptSvg from '../public/javascript.svg';
+import ReactSvg from '../public/react.svg';
+import NextSvg from '../public/nextjs.svg';
+import NodeSvg from '../public/nodejs.svg';
+import MySqlSvg from '../public/mysql.svg';
+import PostgresSvg from '../public/postgresql.svg';
+import MongoSvg from '../public/mongodb.svg';
+import ExpressSvg from '../public/express.svg';
+
 export default function Skills() {
   return (
     <div className="bg-c-lightgray dark:bg-c-black py-8">
@@ -7,85 +18,75 @@ export default function Skills() {
       >
         Skills
       </h3>
-      <div className="max-w-screen-lg lg:mx-auto justify-center flex flex-wrap">
+      <div className="max-w-screen-lg justify-center items-center flex flex-wrap lg:mx-auto">
         <h4 className="dark:text-c-gray font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
           Frontend Development
         </h4>
-        <img
-          alt="html5 logo"
-          className="m-4 dark:bg-c-gray"
-          width="100px"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615255847/portfolio/html5_q75vwf.svg"
+        <Html5Svg
+          className="m-1 lg:m-4 dark:bg-c-gray"
+          viewBox="105 200 665 385"
+          width="100"
+          height="100"
         />
-        <img
-          alt="css3 logo"
-          width="100px"
-          className="m-4 dark:bg-c-gray"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257364/portfolio/CSS3_fyw9id.svg"
+        <Css3Svg
+          className="m-1 lg:m-4 dark:bg-c-gray"
+          viewBox="0 -10 350 500"
+          width="100"
+          height="100"
         />
-        <img
-          alt="javascript logo"
-          width="100px"
-          className="m-4 dark:bg-c-gray"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257364/portfolio/Javascript_tkrgtl.svg"
+        <JavascriptSvg
+          className="m-1 lg:m-4 dark:bg-c-gray"
+          viewBox="-90 100 585 350"
+          width="100"
+          height="100"
         />
-        <img
-          alt="react logo"
-          width="100px"
-          className="m-4"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257385/portfolio/React_dfoazj.svg"
+        <ReactSvg
+          className="m-1 lg:m-4 "
+          viewBox="160 115 525 360"
+          width="100"
+          height="100"
         />
-        <img
-          alt="nextjs logo"
-          width="100px"
-          className="m-4 dark:bg-c-gray"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257382/portfolio/Nextjs-_rj0c0l.svg"
+        <NextSvg
+          className="m-1 lg:m-4 dark:bg-gray-50"
+          viewBox="-10 25 220 70"
+          width="100"
+          height="50"
         />
       </div>
 
-      <div className="max-w-screen-lg lg:mx-auto justify-center flex flex-wrap">
+      <div className="max-w-screen-lg lg:mx-auto justify-center items-center flex flex-wrap">
         <h4 className="dark:text-c-gray font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
           Backend Development
         </h4>
-        <img
-          alt="node logo"
-          width="100px"
-          className="m-4 dark:bg-c-gray"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257383/portfolio/Nodejs_hvffpq.svg"
+        <NodeSvg
+          className="m-1 lg:m-4 dark:bg-gray-50"
+          viewBox="-20 60 470 100"
+          width="100"
+          height="75"
         />
-        <img
-          alt="mysql logo"
-          width="100px"
-          className="m-4"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257364/portfolio/mysql_zhtpf8.svg"
+        <MySqlSvg
+          className="m-1 lg:m-4 dark:bg-gray-50"
+          viewBox="0 50 200 100"
+          width="100"
+          height="75"
         />
-        <img
-          alt="postgres logo"
-          width="100px"
-          className="m-4"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257384/portfolio/Postgresql_quvdya.svg"
+        <PostgresSvg
+          className="m-1 lg:m-4 "
+          viewBox="-20 50 465 335"
+          width="100"
+          height="100"
         />
-        <img
-          alt="mongodb logo"
-          width="100px"
-          className="m-4 dark:bg-c-gray"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257364/portfolio/mongodb_y8nqe7.svg"
+        <MongoSvg
+          className="m-1 lg:m-4 dark:bg-gray-50"
+          viewBox="-15 30 535 100"
+          width="100"
+          height="40"
         />
-        <img
-          alt="express logo"
-          width="100px"
-          className="m-4"
-          height="100px"
-          src="https://res.cloudinary.com/alvindelito/image/upload/v1615257364/portfolio/express_yezk4e.svg"
+        <ExpressSvg
+          className="m-1 lg:m-4 dark:bg-gray-50"
+          viewBox="-15 30 535 100"
+          width="100"
+          height="40"
         />
       </div>
     </div>
