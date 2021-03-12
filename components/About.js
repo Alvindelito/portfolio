@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="px-2 bg-c-lightgray dark:bg-c-black">
+    <div className="px-2 bg-gray-50 dark:bg-c-black">
       <div
         className="py-8 mx-auto max-w-screen-lg text-justify tracking-wide"
         id="about"

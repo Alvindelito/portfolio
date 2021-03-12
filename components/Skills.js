@@ -11,7 +11,7 @@ import ExpressSvg from '../public/express.svg';
 
 export default function Skills() {
   return (
-    <div className="bg-c-lightgray dark:bg-c-black py-8">
+    <div className="bg-gray-50 dark:bg-c-black py-8">
       <h3
         id="skills"
         className="text-c-teal text-center font-extralight text-3xl tracking-wide"

@@ -1,10 +1,14 @@
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import Moon from '../public/moon.svg';
 import Sun from '../public/sun.svg';
 
 export default function Nav() {
   const { theme, setTheme } = useTheme();
+  useEffect(() => {
+    setTheme(theme === setTheme(theme === 'dark' ? 'light' : 'dark'));
+  }, []);
   return (
     <nav className="flex mx-auto items-center justify-center text-c-darkgray dark:text-c-teal md:w-9/12 md:justify-end max-w-screen-lg">
       <Link href="/">
