@@ -24,9 +24,9 @@ export default function Hero() {
           <SocialMedia />
         </div>
         {/* image */}
-        <div className="w-4/12">
+        <div className="flex w-4/12">
           <img
-            className="mx-auto h-64 md:h-72 lg:h-96"
+            className="mx-auto h-52 self-center md:h-72 lg:h-96"
             src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_600,q_80/v1615179277/portfolio/IMG_0834_lxs9ry.jpg"
             alt="picture of alvin"
           />
