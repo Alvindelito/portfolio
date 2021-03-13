@@ -5,7 +5,7 @@ export default function About() {
         className="py-8 mx-auto max-w-screen-lg text-justify tracking-wide"
         id="about"
       >
-        <h3 className="text-center text-3xl font-extralight text-c-teal dark:text-c-teal">
+        <h3 className="text-center text-3xl font-light text-c-teal dark:text-c-teal">
           About Me
         </h3>
         <p className="text-c-darkgray dark:text-c-gray p-1 md:w-8/12 mx-auto mb-2">

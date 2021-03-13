@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="bg-gray-50 dark:bg-c-black md:pt-8">
       <div className="max-w-screen-lg flex justify-center h-64 lg:h-96 mx-auto">
         {/* Description */}
-        <div className="flex w-6/12 mx-2 lg:w-4/12 self-center flex-col">
+        <div className="flex w-6/12 mx-2 md:w-5/12 self-center flex-col">
           <p className=" mx-auto text-md text-c-darkgray dark:text-c-gray">
             Hi, my name is
           </p>
@@ -18,15 +18,15 @@ export default function Hero() {
           <strong className="mx-auto text-c-teal dark:text-c-electricblue uppercase tracking-wider font-mono md:text-2xl">
             Software Engineer
           </strong>
-          <p className="mx-auto text-c-darkgray dark:text-c-gray">
+          <p className="mx-auto text-c-darkgray dark:text-c-gray mb-2">
             I build things for the web
           </p>
           <SocialMedia />
         </div>
         {/* image */}
-        <div className="flex w-4/12">
+        <div className="w-4/12 md:w-3/12">
           <img
-            className="mx-auto"
+            className="mx-auto h-64 md:h-72 lg:h-96"
             src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_600,q_80/v1615179277/portfolio/IMG_0834_lxs9ry.jpg"
             alt="picture of alvin"
           />

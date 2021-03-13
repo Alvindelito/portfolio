@@ -10,6 +10,12 @@ module.exports = {
         'c-electricblue': '#66FCF1',
         'c-teal': '#45A29E',
       },
+      maxWidth: {
+        100: '100%',
+      },
+      maxHeight: {
+        400: '300px',
+      },
     },
   },
   variants: {

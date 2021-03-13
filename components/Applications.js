@@ -6,7 +6,7 @@ export default function Applications() {
       <div className="max-w-screen-lg mx-auto justify-center">
         <h3
           id="applications"
-          className="text-center font-extralight text-3xl tracking-wide dark:text-c-teal"
+          className="text-center font-light text-3xl tracking-wide text-c-teal"
         >
           Applications
         </h3>

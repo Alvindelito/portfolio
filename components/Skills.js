@@ -14,7 +14,7 @@ export default function Skills() {
     <div className="bg-gray-50 dark:bg-c-black py-8">
       <h3
         id="skills"
-        className="text-c-teal text-center font-extralight text-3xl tracking-wide"
+        className="text-c-teal text-center font-light text-3xl tracking-wide"
       >
         Skills
       </h3>
