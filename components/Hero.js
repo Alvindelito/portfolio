@@ -2,7 +2,7 @@ import SocialMedia from './SocialMedia';
 
 export default function Hero() {
   return (
-    <div className="bg-gray-50 dark:bg-c-black md:pt-8">
+    <div className="bg-gray-50 dark:bg-c-black md:pt-8 md:pb-8 md:pt-16">
       <div className="max-w-screen-lg flex justify-center h-64 lg:h-96 mx-auto">
         {/* Description */}
         <div className="flex w-6/12 mx-2 md:w-5/12 self-center flex-col">
@@ -24,7 +24,7 @@ export default function Hero() {
           <SocialMedia />
         </div>
         {/* image */}
-        <div className="w-4/12 md:w-3/12">
+        <div className="w-4/12">
           <img
             className="mx-auto h-64 md:h-72 lg:h-96"
             src="https://res.cloudinary.com/alvindelito/image/upload/c_scale,h_600,q_80/v1615179277/portfolio/IMG_0834_lxs9ry.jpg"

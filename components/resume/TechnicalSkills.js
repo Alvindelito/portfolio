@@ -1,6 +1,6 @@
 export default function TechnicalSkills() {
   return (
-    <div className="text-c-darkgray p-2 dark:text-c-gray">
+    <div className="text-c-darkgray px-2 py-4 dark:text-c-gray">
       <h3 className="text-c-teal uppercase text-center text-lg">
         Technical Skills
       </h3>

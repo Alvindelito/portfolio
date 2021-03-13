@@ -2,7 +2,7 @@ import Card from './Card';
 
 export default function Applications() {
   return (
-    <div className="py-8 bg-gray-50 dark:bg-c-black">
+    <div className="py-8 md:py-16 bg-gray-50 dark:bg-c-black">
       <div className="max-w-screen-lg mx-auto justify-center">
         <h3
           id="applications"

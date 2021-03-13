@@ -25,7 +25,7 @@ const roomease = [
 
 export default function ResumeApplications() {
   return (
-    <div className="m-2 text-c-darkgray dark:text-c-gray">
+    <div className="py-4 m-2 text-c-darkgray dark:text-c-gray">
       <h3 className="text-c-teal uppercase text-center text-lg">
         Applications
       </h3>

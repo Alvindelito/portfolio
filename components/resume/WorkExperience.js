@@ -8,7 +8,7 @@ const ajWholesale = [
 
 export default function WorkExperience() {
   return (
-    <div className="m-2 text-c-darkgray dark:text-c-gray">
+    <div className="m-2 py-4 text-c-darkgray dark:text-c-gray">
       <h3 className="text-c-teal uppercase text-center text-lg">
         Work Experience
       </h3>
