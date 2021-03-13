@@ -11,15 +11,15 @@ import ExpressSvg from '../public/express.svg';
 
 export default function Skills() {
   return (
-    <div className="bg-gray-50 dark:bg-c-black py-8">
+    <div className="bg-gray-50 dark:bg-c-black py-8 ">
       <h3
         id="skills"
         className="text-c-teal text-center font-light text-3xl tracking-wide"
       >
         Skills
       </h3>
-      <div className="max-w-screen-lg justify-center items-center flex flex-wrap lg:mx-auto">
-        <h4 className="dark:text-c-gray font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
+      <div className="max-w-screen-lg justify-center items-center flex flex-wrap lg:mx-auto border-c-gray border-t border-b lg:border-t-0 lg:border-b-0 p-4">
+        <h4 className="dark:text-c-gray font-bold tracking-wider self-center border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black lg:py-4">
           Frontend Development
         </h4>
         <Html5Svg
@@ -54,8 +54,8 @@ export default function Skills() {
         />
       </div>
 
-      <div className="max-w-screen-lg lg:mx-auto justify-center items-center flex flex-wrap">
-        <h4 className="dark:text-c-gray font-bold tracking-wider self-center p-4 border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black">
+      <div className="max-w-screen-lg lg:mx-auto justify-center items-center flex flex-wrap border-c-gray border-b lg:border-b-0 p-4">
+        <h4 className="dark:text-c-gray font-bold tracking-wider self-center border-black w-full text-center text-2xl lg:w-4/12 lg:text-left lg:h-full lg:border-r lg:border-black lg:py-4">
           Backend Development
         </h4>
         <NodeSvg
@@ -65,10 +65,10 @@ export default function Skills() {
           height="75"
         />
         <MySqlSvg
-          className="m-1 lg:m-4 dark:bg-gray-50"
-          viewBox="0 50 200 100"
+          className="m-1 lg:m-4 "
+          viewBox="-10 -20 275 275"
           width="100"
-          height="75"
+          height="100"
         />
         <PostgresSvg
           className="m-1 lg:m-4 "
