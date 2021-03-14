@@ -2,8 +2,9 @@ export default function ContactForm() {
   return (
     <form
       name="contact"
-      method="/"
+      method="POST"
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
+      netlify
     >
       <label htmlFor="name" className="my-2 text-c-darkgray dark:text-c-gray">
         Name<span className="text-red-500">*</span>
