@@ -3,9 +3,13 @@ export default function ContactForm() {
     <form
       name="contact"
       method="POST"
+      action="/success"
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
-      netlify
+      data-netlify="true"
+      data-netlify-recaptcha="true"
+      data-netlify-honeypot="bot-field"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <label htmlFor="name" className="my-2 text-c-darkgray dark:text-c-gray">
         Name<span className="text-red-500">*</span>
         <input
