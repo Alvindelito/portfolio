@@ -35,7 +35,6 @@ export default function ContactForm() {
       name="contact"
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
       data-netlify="true"
-      data-netlify-recaptcha="true"
       netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
     >
@@ -80,7 +79,6 @@ export default function ContactForm() {
           required
         />
       </label>
-      <div data-netlify-recaptcha="true"></div>
       <button
         type="submit"
         className="place-self-start border border-black bg-c-darkgray text-gray-200 text-lg p-1 rounded-md hover:bg-c-teal hover:text-c-black dark:bg-c-black dark:border dark:border-c-teal dark:hover:bg-c-teal dark:hover:text-c-black"
