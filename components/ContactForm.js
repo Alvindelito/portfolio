@@ -41,6 +41,7 @@ export default function ContactForm() {
           required
         />
       </label>
+      <div data-netlify-recaptcha="true"></div>
       <button
         type="submit"
         className="place-self-start border border-black bg-c-darkgray text-gray-200 text-lg p-1 rounded-md hover:bg-c-teal hover:text-c-black dark:bg-c-black dark:border dark:border-c-teal dark:hover:bg-c-teal dark:hover:text-c-black"
