@@ -29,7 +29,7 @@ export default function ContactForm() {
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
       data-netlify="true"
       data-netlify-recaptcha="true"
-      data-netlify-honeypot="bot-field"
+      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
