@@ -2,10 +2,15 @@ export default function ContactForm() {
   return (
     <form
       name="contact"
-      method="POST"
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
-      netlify
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/success"
     >
+      <input type="hidden" name="form-name" value="contact" />
+      <label className="hidden">
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
       <label htmlFor="name" className="my-2 text-c-darkgray dark:text-c-gray">
         Name<span className="text-red-500">*</span>
         <input
