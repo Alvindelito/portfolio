@@ -2,27 +2,27 @@ import { useRouter } from 'next/router';
 export default function ContactForm() {
   const router = useRouter();
 
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
-      )
-      .join('&');
-  }
+  const [formInput, setInput] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleChange = (e) => {
+    [e.target.name] = setInput(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': event.target.getAttribute('name'),
-        ...name,
-      }),
+      body: formInput,
     })
       .then(() => router.push('/success'))
       .catch((error) => alert(error));
   };
+
   return (
     <form
       name="contact"
@@ -43,6 +43,7 @@ export default function ContactForm() {
           type="text"
           name="name"
           placeholder="your name here"
+          onChange={handleChange}
           required
         />
       </label>
@@ -53,6 +54,7 @@ export default function ContactForm() {
           type="email"
           name="email"
           placeholder="your email here"
+          onChange={handleChange}
           required
         />
       </label>
@@ -64,6 +66,7 @@ export default function ContactForm() {
         <textarea
           name="message"
           className="w-full h-32 bg-gray-50 dark:bg-c-black outline-none rounded-lg border border-gray-300 p-2 focus:shadow-lg focus:border-c-teal hover:border-c-teal"
+          onChange={handleChange}
           required
         />
       </label>
