@@ -1,15 +1,41 @@
+import { useRouter } from 'next/router';
 export default function ContactForm() {
+  const router = useRouter();
+
+  function encode(data) {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+      )
+      .join('&');
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': event.target.getAttribute('name'),
+        ...name,
+      }),
+    })
+      .then(() => router.push('/success'))
+      .catch((error) => alert(error));
+  };
   return (
     <form
       name="contact"
-      method="POST"
-      action="/success"
       className="flex flex-col w-10/12 lg:w-6/12 mx-auto"
       data-netlify="true"
       data-netlify-recaptcha="true"
       data-netlify-honeypot="bot-field"
+      onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact" />
+      <label className="hidden">
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
       <label htmlFor="name" className="my-2 text-c-darkgray dark:text-c-gray">
         Name<span className="text-red-500">*</span>
         <input
